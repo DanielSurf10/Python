@@ -57,3 +57,7 @@ class Pessoa:
     def por_ano(cls, nome, ano):
         idade = cls.ano_atual - ano
         return cls(nome, idade)
+
+
+p1 = Pessoa.por_ano("João", 1987)
+print(p1.nome, p1.idade)

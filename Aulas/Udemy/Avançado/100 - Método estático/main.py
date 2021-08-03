@@ -1,5 +1,5 @@
 from datetime import datetime
-
+from random import randint
 
 class Pessoa:
     ano_atual = datetime.now().year
@@ -50,14 +50,20 @@ class Pessoa:
         print(f'{self.nome} parou de falar.')
         self.falando = False
 
-    def ano_nacimento(self):
+    def ano_nacimento(self):                # Instância ao objeto
         return self.ano_atual - self.idade
 
-    @classmethod
+    @classmethod                            # Método de classe
     def por_ano(cls, nome, ano):
         idade = cls.ano_atual - ano
         return cls(nome, idade)
 
+    @staticmethod
+    def gera_id():                          # Função normal, sem intância a nada, mas tinha que estar aqui
+        return randint(10000, 99999)        # para não fazer bagunça
+
 
 p1 = Pessoa.por_ano("João", 1987)
 print(p1.nome, p1.idade)
+print(Pessoa.gera_id())                     # Pode ser chamada pela classe
+print(p1.gera_id())                         # Ou pelo objeto, vai ter a mesma coisa
