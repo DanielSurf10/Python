@@ -38,6 +38,6 @@ loja.inserir_clientes(0, "André")
 loja.inserir_clientes(1, "Júlio")
 loja.inserir_clientes(2, "Pedro")
 
-print(loja._BaseDeDados__dados)             # Não poderia mexer em "__dados", mas dá pra acesar
+print(loja._BaseDeDados__dados)             # Não poderia mexer em "__dados", mas dá
 
 print(loja.dados)                           # O jeito certo de pegar esse valor, com getter
