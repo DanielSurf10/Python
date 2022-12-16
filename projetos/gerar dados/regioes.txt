@@ -1,0 +1,26 @@
+Acre-Norte
+Amapá-Norte
+Amazonas-Norte
+Pará-Norte
+Rondônia-Norte
+Roraima-Norte
+Tocantins-Norte
+Alagoas-Nordeste
+Bahia-Nordeste
+Ceará-Nordeste
+Maranhão-Nordeste
+Paraíba-Nordeste
+Pernambuco-Nordeste
+Piauí-Nordeste
+Rio Grande do Norte-Nordeste
+Sergipe-Nordeste
+Goiás-Centro Oeste
+Mato Grosso-Centro Oeste
+Mato Grosso do Sul-Centro Oeste
+Espírito Santo-Sudeste
+Minas Gerais-Sudeste
+Rio de Janeiro-Sudeste
+São Paulo-Sudeste
+Paraná-Sul
+Rio Grande do Sul-Sul
+Santa Catarina-Sul
