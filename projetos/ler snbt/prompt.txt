@@ -1,0 +1,21 @@
+Vou te fornecer um arquivo e quero que siga essas instruções:
+
+Ler o arquivo fornecido.
+Extrair os campos "id", "title", "subtitle" e "description" das quests que estão separados em blocos delimitados por "{}".
+A cada quest pule uma linha a mais.
+Colocar os campos em um novo arquivo, separados por uma quebra de linha nessa ordem "id", "title", "subtitle" e "description".
+Colocar as chaves e valores entre aspas duplas.
+Colocar vírgula no final de cada linha.
+O campo "id" é obrigatório e deve estar presente para cada quest.
+Os campos "title", "subtitle" e "description" são obrigatórios, devem estar presentes se estiverem definidos,  se não estiverem definidos devem ser representados como uma string vazia, ou seja, duas aspas duplas seguidas.
+Omitir os campos que não foram mencionados.
+Para cada quest, os campos devem ser representados na seguinte notação:
+`"chapter.0.quest.<número da quest>.<campo>": "<valor>",`.
+Onde:
+- <número da quest> é um número inteiro que representa o número da quest, a contagem começa em 1.
+- <campo> é o nome do campo.
+- <valor> é o valor do campo.
+O arquivo de saída não deve ser um script, mas sim um texto simples e você deve escrever ele aqui.
+
+Aqui está o conteúdo arquivo:
+
