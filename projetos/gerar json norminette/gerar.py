@@ -17,4 +17,3 @@ for keys in novo.keys():
 
 with open("projetos/gerar json norminette/gerado.json", 'w', encoding='utf8') as arq:
 	json.dump(juntar, arq, indent='\t', ensure_ascii=False)
-g
