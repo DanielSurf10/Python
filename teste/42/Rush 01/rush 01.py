@@ -21,9 +21,40 @@ def valido(tupla, lado, quantidade):
     
     return contar_caixa == quantidade
 
+def sequencial_linha(lista, pos):
+    for i in range(tamanho):
+        lista[i] = i + 1
+
+def sequencial_coluna(lista, pos):
+    for i in range(tamanho):
+        lista[pos][i] = i + 1
 
 P1 = permutations([1, 2, 3, 4], 4)
 lista_perm = list(P1)
+
+args = "4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2".split(' ')
+args = [int(i) for i in args]
+col_up = args[0:3]
+col_down = args[4:7]
+row_left = args[8:11]
+row_right = args[12:15]
+
+tamanho = 4
+
+tabela = [0 for _ in range(tamanho * tamanho)]
+
+# for item, count in zip(args, range(len(args))):
+#     if item == 4:
+#         if count >= 8:                                          # se for pra por numa linha
+#             sequencial_linha(tabela, count)
+#         if count < 8:                                           # se for pra por numa coluna
+#             # sequencial_coluna(tabela, int(count / tamanho))
+#             pass
+    
+        
+# for i in tabela:
+#     print(i)
+
 
 L1 = list()
 L2 = list()
@@ -94,7 +125,6 @@ Linha2 = list(set(L2).intersection(set(R2)))
 Linha3 = list(set(L3).intersection(set(R3)))
 Linha4 = list(set(L4).intersection(set(R4)))
 
-print("\n\nFinal:")
 print(Linha1)
 print(Linha2)
 print(Linha3)

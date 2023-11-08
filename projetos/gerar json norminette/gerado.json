@@ -1,330 +1,482 @@
 {
 	"SPC_INSTEAD_TAB": [
-		"Parece que você utilizou espaços no início da linha, talvez possamos considerar tabulações?",
-		"Parece que você utilizou espaços no início da linha, talvez possamos considerar tabulações?",
-		"Parece que você utilizou espaços no início da linha, talvez possamos considerar tabulações?",
-		"Parece que você utilizou espaços no início da linha, talvez possamos considerar tabulações?",
-		"Cê encheu de espaços logo na frente, visse?",
-		"Cê encheu de espaços logo na frente, visse?"
+		"Espaços no início da linha",
+		"Espaços no início da linha? Sério?",
+		"Você acha que é engraçado colocar espaços no início da linha? Espaços, realmente?"
 	],
 	"TAB_INSTEAD_SPC": [
-		"Você usou uma tabulação em vez de espaço. Seria ótimo ajustar isso para consistência.",
-		"Você usou uma tabulação em vez de espaço. Seria ótimo ajustar isso para consistência.",
-		"Você usou uma tabulação em vez de espaço. Seria ótimo ajustar isso para consistência.",
-		"Você usou uma tabulação em vez de espaço. Seria ótimo ajustar isso para consistência.",
-		"Pô, cê usô uma tabulada onde devia era ser espaço, sô!",
-		"Pô, cê usô uma tabulada onde devia era ser espaço, sô!"
+		"Tab encontrado quando se esperava espaço",
+		"Tab encontrado quando se esperava espaço. Parece que alguém não conhece as regras.",
+		"Tab onde você queria espaço? Você realmente não consegue acertar isso?"
 	],
 	"CONSECUTIVE_SPC": [
-		"Encontramos dois ou mais espaços consecutivos. Talvez possamos tornar o código mais legível removendo os espaços extras.",
-		"Encontramos dois ou mais espaços consecutivos. Talvez possamos tornar o código mais legível removendo os espaços extras.",
-		"Encontramos dois ou mais espaços consecutivos. Talvez possamos tornar o código mais legível removendo os espaços extras.",
-		"Encontramos dois ou mais espaços consecutivos. Talvez possamos tornar o código mais legível removendo os espaços extras.",
-		"Tem uns dois ou mais espaço enfiado aí, ajeita isso pra num fica zoado.",
-		"Tem uns dois ou mais espaço enfiado aí, ajeita isso pra num fica zoado."
-	],
-	"CONSECUTIVE_WS": [
-		"Observamos dois ou mais espaços em branco consecutivos. Podemos ajustar isso para um espaçamento mais limpo?",
-		"Observamos dois ou mais espaços em branco consecutivos. Podemos ajustar isso para um espaçamento mais limpo?",
-		"Observamos dois ou mais espaços em branco consecutivos. Podemos ajustar isso para um espaçamento mais limpo?",
-		"Observamos dois ou mais espaços em branco consecutivos. Podemos ajustar isso para um espaçamento mais limpo?",
-		"Dois ou mais espaço branco de seguida? Vamo simplificar isso, sô.",
-		"Dois ou mais espaço branco de seguida? Vamo simplificar isso, sô."
+		"Dois ou mais espaços consecutivos",
+		"Dois ou mais espaços consecutivos? Você só precisa de um, sabia?",
+		"Dois ou mais espaços consecutivos? Você está brincando comigo?"
 	],
 	"SPC_BFR_OPERATOR": [
-		"Parece que está faltando espaço antes do operador. Podemos adicionar esse espaço para melhorar a clareza?",
-		"Parece que está faltando espaço antes do operador. Podemos adicionar esse espaço para melhorar a clareza?",
-		"Parece que está faltando espaço antes do operador. Podemos adicionar esse espaço para melhorar a clareza?",
-		"Parece que está faltando espaço antes do operador. Podemos adicionar esse espaço para melhorar a clareza?",
-		"Cadê o espaço antes do operador, uai? É bom coloca pra num fica embolado.",
-		"Cadê o espaço antes do operador, uai? É bom coloca pra num fica embolado."
+		"Espaço em falta antes do operador",
+		"Espaço em falta antes do operador. Não é como se fosse difícil.",
+		"Espaço em falta antes do operador? Por que você faria isso?"
 	],
 	"SPC_AFTER_OPERATOR": [
-		"Também está faltando espaço após o operador. Adicionar espaço pode tornar o código mais legível.",
-		"Também está faltando espaço após o operador. Adicionar espaço pode tornar o código mais legível.",
-		"Também está faltando espaço após o operador. Adicionar espaço pode tornar o código mais legível.",
-		"Também está faltando espaço após o operador. Adicionar espaço pode tornar o código mais legível.",
-		"Faltô espaço depois do operador, poxa vida. Vamo completar pra fica bonito.",
-		"Faltô espaço depois do operador, poxa vida. Vamo completar pra fica bonito."
+		"Espaço em falta após o operador",
+		"Espaço em falta após o operador. Isso é básico!",
+		"Espaço em falta após o operador? Você está tentando me enlouquecer?"
 	],
 	"NO_SPC_BFR_OPR": [
-		"Há um espaço extra antes do operador. Vamos manter o espaçamento consistente.",
-		"Há um espaço extra antes do operador. Vamos manter o espaçamento consistente.",
-		"Há um espaço extra antes do operador. Vamos manter o espaçamento consistente.",
-		"Há um espaço extra antes do operador. Vamos manter o espaçamento consistente.",
-		"Cê meteu espaço demais antes do operador, sô. Ajeita isso pra num fica exagerado.",
-		"Cê meteu espaço demais antes do operador, sô. Ajeita isso pra num fica exagerado."
+		"Espaço extra antes do operador",
+		"Espaço extra antes do operador? Você exagerou!",
+		"Espaço extra antes do operador? Você acha que mais espaço é a resposta para tudo?"
 	],
 	"NO_SPC_AFR_OPR": [
-		"Há espaço extra após o operador. Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra após o operador. Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra após o operador. Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra após o operador. Podemos ajustar isso para um código mais limpo.",
-		"Espaço sobrando depois do operador? Vamo dá um trato nisso, uai.",
-		"Espaço sobrando depois do operador? Vamo dá um trato nisso, uai."
+		"Espaço extra após o operador",
+		"Espaço extra após o operador? Calma aí, sem necessidade disso.",
+		"Espaço extra após o operador? Por que você está fazendo isso?"
 	],
 	"SPC_AFTER_PAR": [
-		"Parece que falta espaço após o parêntese (chave/colchete). Adicionar espaço aqui pode ser útil.",
-		"Parece que falta espaço após o parêntese (chave/colchete). Adicionar espaço aqui pode ser útil.",
-		"Parece que falta espaço após o parêntese (chave/colchete). Adicionar espaço aqui pode ser útil.",
-		"Parece que falta espaço após o parêntese (chave/colchete). Adicionar espaço aqui pode ser útil.",
-		"Onde que tá o espaço depois do parêntese (chave/colchete), sô? Vamo completar isso aí.",
-		"Onde que tá o espaço depois do parêntese (chave/colchete), sô? Vamo completar isso aí."
+		"Espaço em falta após parêntese (chave/colchete)",
+		"Espaço em falta após parêntese (chave/colchete). Fecha esse espaço vazio!",
+		"Espaço em falta após parêntese (chave/colchete). Sério? Você não consegue acertar isso?"
 	],
 	"SPC_BFR_PAR": [
-		"Da mesma forma, falta espaço antes do parêntese (chave/colchete). Podemos melhorar a legibilidade com esse ajuste.",
-		"Da mesma forma, falta espaço antes do parêntese (chave/colchete). Podemos melhorar a legibilidade com esse ajuste.",
-		"Da mesma forma, falta espaço antes do parêntese (chave/colchete). Podemos melhorar a legibilidade com esse ajuste.",
-		"Da mesma forma, falta espaço antes do parêntese (chave/colchete). Podemos melhorar a legibilidade com esse ajuste.",
-		"Cê esqueceu do espaço antes do parêntese (chave/colchete), sô. Ajeita isso aí pra fica bão.",
-		"Cê esqueceu do espaço antes do parêntese (chave/colchete), sô. Ajeita isso aí pra fica bão."
+		"Espaço em falta antes do parêntese (chave/colchete)",
+		"Espaço em falta antes do parêntese (chave/colchete). Um espaço a mais não mata ninguém!",
+		"Espaço em falta antes do parêntese (chave/colchete). Parece que você gosta de fazer errado."
 	],
 	"NO_SPC_AFR_PAR": [
-		"Há espaço extra após o parêntese (chave/colchete). Vamos manter o espaçamento consistente.",
-		"Há espaço extra após o parêntese (chave/colchete). Vamos manter o espaçamento consistente.",
-		"Há espaço extra após o parêntese (chave/colchete). Vamos manter o espaçamento consistente.",
-		"Há espaço extra após o parêntese (chave/colchete). Vamos manter o espaçamento consistente.",
-		"Espaço sobrando depois do parêntese (chave/colchete)? Vamo mantê as coisa direitas.",
-		"Espaço sobrando depois do parêntese (chave/colchete)? Vamo mantê as coisa direitas."
+		"Espaço extra após o parêntese (chave/colchete)",
+		"Espaço extra após o parêntese (chave/colchete). Demais, não?",
+		"Espaço extra após o parêntese (chave/colchete). Você não pode seguir as regras?"
 	],
 	"NO_SPC_BFR_PAR": [
-		"Há espaço extra antes do parêntese (chave/colchete). Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra antes do parêntese (chave/colchete). Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra antes do parêntese (chave/colchete). Podemos ajustar isso para um código mais limpo.",
-		"Há espaço extra antes do parêntese (chave/colchete). Podemos ajustar isso para um código mais limpo.",
-		"Tá com espaço demais antes do parêntese (chave/colchete), sô. Ajeita isso, cê.",
-		"Tá com espaço demais antes do parêntese (chave/colchete), sô. Ajeita isso, cê."
+		"Espaço extra antes do parêntese (chave/colchete)",
+		"Espaço extra antes do parêntese (chave/colchete). Você gosta de espaço, não é?",
+		"Espaço extra antes do parêntese (chave/colchete). Isso é um erro básico!"
 	],
 	"SPC_AFTER_POINTER": [
-		"Há espaço após o ponteiro. Podemos considerar a remoção desse espaço para manter a formatação consistente.",
-		"Há espaço após o ponteiro. Podemos considerar a remoção desse espaço para manter a formatação consistente.",
-		"Há espaço após o ponteiro. Podemos considerar a remoção desse espaço para manter a formatação consistente.",
-		"Há espaço após o ponteiro. Podemos considerar a remoção desse espaço para manter a formatação consistente.",
-		"Tem espaço depois do ponteiro, ocê viu? Vamo dá um trato nisso aí.",
-		"Tem espaço depois do ponteiro, ocê viu? Vamo dá um trato nisso aí."
+		"Espaço após o ponteiro",
+		"Espaço após o ponteiro? O que você está tentando fazer?",
+		"Espaço após o ponteiro. Por que você faria isso?"
 	],
 	"SPC_LINE_START": [
-		"Há um espaço/tabulação inesperado no início da linha. Podemos ajustar isso para um início mais limpo.",
-		"Há um espaço/tabulação inesperado no início da linha. Podemos ajustar isso para um início mais limpo.",
-		"Há um espaço/tabulação inesperado no início da linha. Podemos ajustar isso para um início mais limpo.",
-		"Há um espaço/tabulação inesperado no início da linha. Podemos ajustar isso para um início mais limpo.",
-		"Espaço/tabulada logo no comecim? Ah, vamo limpá isso aí, sô.",
-		"Espaço/tabulada logo no comecim? Ah, vamo limpá isso aí, sô."
+		"Espaço/Tab inesperados no início da linha",
+		"Espaço/Tab inesperados no início da linha. Comece bem, pelo menos.",
+		"Espaço/Tab inesperados no início da linha. Você não consegue começar corretamente?"
 	],
 	"SPC_BFR_POINTER": [
-		"O espaçamento antes do ponteiro pode ser aprimorado. Vamos trabalhar nisso para uma formatação mais consistente.",
-		"O espaçamento antes do ponteiro pode ser aprimorado. Vamos trabalhar nisso para uma formatação mais consistente.",
-		"O espaçamento antes do ponteiro pode ser aprimorado. Vamos trabalhar nisso para uma formatação mais consistente.",
-		"O espaçamento antes do ponteiro pode ser aprimorado. Vamos trabalhar nisso para uma formatação mais consistente.",
-		"Espaçamento errado antes do ponteiro, visse? Vamo acertá isso aí.",
-		"Espaçamento errado antes do ponteiro, visse? Vamo acertá isso aí."
+		"Espaçamento ruim antes do ponteiro",
+		"Espaçamento ruim antes do ponteiro. Sério?",
+		"Espaçamento ruim antes do ponteiro. Isso é desleixo!"
 	],
 	"SPACE_BEFORE_FUNC": [
-		"Parece que há espaço antes do nome da função. Vamos ajustar isso para manter a consistência.",
-		"Parece que há espaço antes do nome da função. Vamos ajustar isso para manter a consistência.",
-		"Parece que há espaço antes do nome da função. Vamos ajustar isso para manter a consistência.",
-		"Parece que há espaço antes do nome da função. Vamos ajustar isso para manter a consistência.",
-		"Espaço antes do nome da função? Ah, vamo ajustá isso pra fica bão.",
-		"Espaço antes do nome da função? Ah, vamo ajustá isso pra fica bão."
+		"Espaço antes do nome da função",
+		"Espaço antes do nome da função? Você não pode deixar isso acontecer.",
+		"Espaço antes do nome da função. Você não consegue nem nomear corretamente?"
 	],
 	"TOO_MANY_TABS_FUNC": [
-		"Existem tabulações extras antes do nome da função. Podemos ajustar isso para um recuo mais equilibrado.",
-		"Existem tabulações extras antes do nome da função. Podemos ajustar isso para um recuo mais equilibrado.",
-		"Existem tabulações extras antes do nome da função. Podemos ajustar isso para um recuo mais equilibrado.",
-		"Existem tabulações extras antes do nome da função. Podemos ajustar isso para um recuo mais equilibrado.",
-		"Tabulada demais antes do nome da função? Vamo diminuí pra num fica estranho.",
-		"Tabulada demais antes do nome da função? Vamo diminuí pra num fica estranho."
+		"Tabs extras antes do nome da função",
+		"Tabs extras antes do nome da função? Exagerando nos tabs, ein?",
+		"Tabs extras antes do nome da função. Isso é excesso de tabulação!"
 	],
 	"TOO_MANY_TABS_TD": [
-		"Tabulações extras antes do nome typedef podem ser ajustadas para uma formatação mais limpa.",
-		"Tabulações extras antes do nome typedef podem ser ajustadas para uma formatação mais limpa.",
-		"Tabulações extras antes do nome typedef podem ser ajustadas para uma formatação mais limpa.",
-		"Tabulações extras antes do nome typedef podem ser ajustadas para uma formatação mais limpa.",
-		"Tabulada sobrando antes do nome typedef, sô. Vamo dá um jeito nisso.",
-		"Tabulada sobrando antes do nome typedef, sô. Vamo dá um jeito nisso."
+		"Tabs extras antes do nome typedef",
+		"Tabs extras antes do nome typedef? Pensei que você sabia contar.",
+		"Tabs extras antes do nome typedef. Você não consegue controlar seus tabs?"
 	],
 	"MISSING_TAB_FUNC": [
-		"Falta uma tabulação antes do nome da função. Vamos adicionar isso para manter o código alinhado.",
-		"Falta uma tabulação antes do nome da função. Vamos adicionar isso para manter o código alinhado.",
-		"Falta uma tabulação antes do nome da função. Vamos adicionar isso para manter o código alinhado.",
-		"Falta uma tabulação antes do nome da função. Vamos adicionar isso para manter o código alinhado.",
-		"Tá faltando tabulada antes do nome da função. Ajeita isso pra fica certo.",
-		"Tá faltando tabulada antes do nome da função. Ajeita isso pra fica certo."
+		"Tab em falta antes do nome da função",
+		"Tab em falta antes do nome da função. Aprendendo sobre recuo?",
+		"Tab em falta antes do nome da função. Você não consegue nem tabular direito?"
 	],
 	"MISSING_TAB_VAR": [
-		"Também está faltando uma tabulação antes do nome da variável. Adicionar tabulação pode melhorar a formatação.",
-		"Também está faltando uma tabulação antes do nome da variável. Adicionar tabulação pode melhorar a formatação.",
-		"Também está faltando uma tabulação antes do nome da variável. Adicionar tabulação pode melhorar a formatação.",
-		"Também está faltando uma tabulação antes do nome da variável. Adicionar tabulação pode melhorar a formatação.",
-		"Faltô tabulada antes do nome da variável. Vamo acertá isso, cê.",
-		"Faltô tabulada antes do nome da variável. Vamo acertá isso, cê."
+		"Tab em falta antes do nome da variável",
+		"Tab em falta antes do nome da variável. Não esqueça o básico.",
+		"Tab em falta antes do nome da variável. Sério, você esqueceu o básico?"
 	],
 	"TOO_MANY_TAB_VAR": [
-		"Há uma tabulação extra antes do nome da variável. Podemos ajustar isso para manter a formatação consistente.",
-		"Há uma tabulação extra antes do nome da variável. Podemos ajustar isso para manter a formatação consistente.",
-		"Há uma tabulação extra antes do nome da variável. Podemos ajustar isso para manter a formatação consistente.",
-		"Há uma tabulação extra antes do nome da variável. Podemos ajustar isso para manter a formatação consistente.",
-		"Tabulada sobrando antes do nome da variável? Vamo simplificar isso.",
-		"Tabulada sobrando antes do nome da variável? Vamo simplificar isso."
+		"Tab extra antes do nome da variável",
+		"Tab extra antes do nome da variável. Você é obcecado por tabs?"
 	],
 	"LINE_TOO_LONG": [
-		"A linha parece estar muito longa. Podemos quebrá-la para tornar o código mais legível.",
-		"A linha parece estar muito longa. Podemos quebrá-la para tornar o código mais legível.",
-		"A linha parece estar muito longa. Podemos quebrá-la para tornar o código mais legível.",
-		"A linha parece estar muito longa. Podemos quebrá-la para tornar o código mais legível.",
-		"Essa linha tá grandona demais, sô. Vamo quebrá ela pra num fica ruim.",
-		"Essa linha tá grandona demais, sô. Vamo quebrá ela pra num fica ruim."
+		"Linha muito longa",
+		"Linha muito longa? Alguém não consegue quebrar linhas.",
+		"Linha muito longa? Você está tentando me dar trabalho extra?"
 	],
 	"EXP_PARENTHESIS": [
-		"Estamos esperando um parêntese aqui. Podemos adicionar para corrigir a sintaxe.",
-		"Estamos esperando um parêntese aqui. Podemos adicionar para corrigir a sintaxe.",
-		"Estamos esperando um parêntese aqui. Podemos adicionar para corrigir a sintaxe.",
-		"Estamos esperando um parêntese aqui. Podemos adicionar para corrigir a sintaxe.",
-		"Parêntese era o que tava esperano. Vamo bota ele ali.",
-		"Parêntese era o que tava esperano. Vamo bota ele ali."
+		"Parêntese esperado",
+		"Parêntese esperado. Isso é fundamental!",
+		"Parêntese esperado. Isso é tão óbvio!"
 	],
 	"MISSING_IDENTIFIER": [
-		"Falta um qualificador de tipo ou identificador nos argumentos da função. Vamos adicionar para corrigir isso.",
-		"Falta um qualificador de tipo ou identificador nos argumentos da função. Vamos adicionar para corrigir isso.",
-		"Falta um qualificador de tipo ou identificador nos argumentos da função. Vamos adicionar para corrigir isso.",
-		"Falta um qualificador de tipo ou identificador nos argumentos da função. Vamos adicionar para corrigir isso.",
-		"Tá faltando o tipo ou nome nos argumento da função, visse? Vamo corrigi isso.",
-		"Tá faltando o tipo ou nome nos argumento da função, visse? Vamo corrigi isso."
+		"Falta de qualificador de tipo ou identificador nos argumentos da função",
+		"Falta de qualificador de tipo ou identificador nos argumentos da função. Você não pode simplesmente deixar isso em branco!",
+		"Falta de qualificador de tipo ou identificador nos argumentos da função. Você não pode escrever um argumento direito?"
 	],
 	"FORBIDDEN_CHAR_NAME": [
-		"Os identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou ''. Podemos ajustar o nome para atender a essa regra.",
-		"Os identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou ''. Podemos ajustar o nome para atender a essa regra.",
-		"Os identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou ''. Podemos ajustar o nome para atender a essa regra.",
-		"Os identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou ''. Podemos ajustar o nome para atender a essa regra.",
-		"Os nomes que cê definiu só pode tê letra minúscula, número ou ''. Vamo ajustá eles direitinho.",
-		"Os nomes que cê definiu só pode tê letra minúscula, número ou ''. Vamo ajustá eles direitinho."
+		"Identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou '_' (underline)",
+		"Identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou '_'. Não é tão difícil de seguir, né?",
+		"Identificadores definidos pelo usuário devem conter apenas caracteres minúsculos, dígitos ou '_'. Você não pode seguir regras simples?"
 	],
 	"TOO_FEW_TAB": [
-		"Está faltando tabulações para o nível de recuo. Podemos adicionar tabulações para alinhar o código adequadamente.",
-		"Está faltando tabulações para o nível de recuo. Podemos adicionar tabulações para alinhar o código adequadamente.",
-		"Está faltando tabulações para o nível de recuo. Podemos adicionar tabulações para alinhar o código adequadamente.",
-		"Está faltando tabulações para o nível de recuo. Podemos adicionar tabulações para alinhar o código adequadamente.",
-		"Tá faltando tabulada pro recuo. Vamo bota ela pra fica direitinho.",
-		"Tá faltando tabulada pro recuo. Vamo bota ela pra fica direitinho."
+		"Tab em faltas para o nível de recuo",
+		"Tab em falta para o nível de recuo? Você tem que se alinhar.",
+		"Tab em falta para o nível de recuo",
+		"Tab em falta para o nível de recuo. Você não consegue nem alinhar direito?"
 	],
 	"TOO_MANY_TAB": [
-		"Há tabulações extras para o nível de recuo. Vamos remover o excesso para manter a formatação consistente.",
-		"Há tabulações extras para o nível de recuo. Vamos remover o excesso para manter a formatação consistente.",
-		"Há tabulações extras para o nível de recuo. Vamos remover o excesso para manter a formatação consistente.",
-		"Há tabulações extras para o nível de recuo. Vamos remover o excesso para manter a formatação consistente.",
-		"Tabulada demais pro recuo? Vamo dá um jeito nisso.",
-		"Tabulada demais pro recuo? Vamo dá um jeito nisso."
-	],
-	"TOO_MANY_WS": [
-		"Existem espaços em branco extras para o nível de recuo. Vamos ajustar isso para um espaçamento mais limpo.",
-		"Existem espaços em branco extras para o nível de recuo. Vamos ajustar isso para um espaçamento mais limpo.",
-		"Existem espaços em branco extras para o nível de recuo. Vamos ajustar isso para um espaçamento mais limpo.",
-		"Existem espaços em branco extras para o nível de recuo. Vamos ajustar isso para um espaçamento mais limpo.",
-		"Espaço branco demais pro recuo, cê não acha? Vamo simplificá isso aí.",
-		"Espaço branco demais pro recuo, cê não acha? Vamo simplificá isso aí."
+		"Tabs extras para o nível de recuo",
+		"Tabs extras para o nível de recuo? Você não tem que exagerar no recuo.",
+		"Tabs extras para o nível de recuo. Você está obcecado por tabs?"
 	],
 	"SPACE_REPLACE_TAB": [
-		"Você usou espaço quando era esperada uma tabulação. Vamos corrigir isso para manter a consistência.",
-		"Você usou espaço quando era esperada uma tabulação. Vamos corrigir isso para manter a consistência.",
-		"Você usou espaço quando era esperada uma tabulação. Vamos corrigir isso para manter a consistência.",
-		"Você usou espaço quando era esperada uma tabulação. Vamos corrigir isso para manter a consistência.",
-		"Cê colocô espaço onde devia tê uma tabulada. Vamo ajustá pra fica certo.",
-		"Cê colocô espaço onde devia tê uma tabulada. Vamo ajustá pra fica certo."
+		"Espaço encontrado quando se esperava Tab",
+		"Espaço encontrado quando se esperava Tab. Como você pode confundir isso?",
+		"Espaço encontrado quando se esperava Tab. Você não sabe a diferença entre espaço e tab?"
 	],
 	"TAB_REPLACE_SPACE": [
-		"Você usou uma tabulação quando era esperado um espaço. Vamos ajustar isso para manter a formatação consistente.",
-		"Você usou uma tabulação quando era esperado um espaço. Vamos ajustar isso para manter a formatação consistente.",
-		"Você usou uma tabulação quando era esperado um espaço. Vamos ajustar isso para manter a formatação consistente.",
-		"Você usou uma tabulação quando era esperado um espaço. Vamos ajustar isso para manter a formatação consistente.",
-		"Usô tabulada quando era pra sê espaço? Vamo corrigi isso.",
-		"Usô tabulada quando era pra sê espaço? Vamo corrigi isso."
+		"Tab encontrado quando se esperava espaço",
+		"Tab encontrado quando se esperava espaço. Parece que você inverteu as coisas.",
+		"Tab encontrado quando se esperava espaço. Você não consegue nem acertar o básico?"
 	],
 	"TOO_MANY_LINES": [
-		"Sua função tem mais de 25 linhas. Talvez seja uma boa ideia dividi-la em partes menores para melhor legibilidade.",
-		"Sua função tem mais de 25 linhas. Talvez seja uma boa ideia dividi-la em partes menores para melhor legibilidade.",
-		"Sua função tem mais de 25 linhas. Talvez seja uma boa ideia dividi-la em partes menores para melhor legibilidade.",
-		"Sua função tem mais de 25 linhas. Talvez seja uma boa ideia dividi-la em partes menores para melhor legibilidade.",
-		"Essa função tá com mais de 25 linha, sô. Acho que vamo dividir ela pra fica melhô.",
-		"Essa função tá com mais de 25 linha, sô. Acho que vamo dividir ela pra fica melhô."
+		"A função tem mais de 25 linhas",
+		"A função tem mais de 25 linhas? Você exagerou nas linhas, meu amigo.",
+		"A função tem mais de 25 linhas. Você não consegue escrever código mais limpo?"
 	],
 	"SPACE_EMPTY_LINE": [
-		"Há espaço em uma linha vazia. Vamos manter as linhas vazias realmente vazias.",
-		"Há espaço em uma linha vazia. Vamos manter as linhas vazias realmente vazias.",
-		"Há espaço em uma linha vazia. Vamos manter as linhas vazias realmente vazias.",
-		"Há espaço em uma linha vazia. Vamos manter as linhas vazias realmente vazias.",
-		"Espaço na linha vazia? Vamo mantê as linha vazia mesmo.",
-		"Espaço na linha vazia? Vamo mantê as linha vazia mesmo."
+		"Espaço em linha vazia",
+		"Espaço em linha vazia? Não é uma linha vazia se tiver espaço.",
+		"Espaço em linha vazia. Isso é totalmente inútil!"
 	],
 	"SPC_BEFORE_NL": [
-		"Há espaço antes da quebra de linha. Vamos removê-lo para manter a formatação limpa.",
-		"Há espaço antes da quebra de linha. Vamos removê-lo para manter a formatação limpa.",
-		"Há espaço antes da quebra de linha. Vamos removê-lo para manter a formatação limpa.",
-		"Há espaço antes da quebra de linha. Vamos removê-lo para manter a formatação limpa.",
-		"Espaço antes da quebra de linha? Vamo limpá isso aí.",
-		"Espaço antes da quebra de linha? Vamo limpá isso aí."
+		"Espaço antes da quebra de linha",
+		"Espaço antes da quebra de linha. Por que você está complicando?",
+		"Espaço antes da quebra de linha. Você realmente acha que isso é necessário?"
 	],
 	"TOO_MANY_INSTR": [
-		"Há muitas instruções em uma única linha. Vamos separá-las para tornar o código mais legível.",
-		"Há muitas instruções em uma única linha. Vamos separá-las para tornar o código mais legível.",
-		"Há muitas instruções em uma única linha. Vamos separá-las para tornar o código mais legível.",
-		"Há muitas instruções em uma única linha. Vamos separá-las para tornar o código mais legível.",
-		"Tá com muita instrução na mesma linha. Vamo separá elas pra fica bão.",
-		"Tá com muita instrução na mesma linha. Vamo separá elas pra fica bão."
-	],
-	"PREPROC_NO_SPACE": [
-		"Está faltando espaço após a diretiva de pré-processador. Vamos adicionar para melhorar a legibilidade.",
-		"Está faltando espaço após a diretiva de pré-processador. Vamos adicionar para melhorar a legibilidade.",
-		"Está faltando espaço após a diretiva de pré-processador. Vamos adicionar para melhorar a legibilidade.",
-		"Está faltando espaço após a diretiva de pré-processador. Vamos adicionar para melhorar a legibilidade.",
-		"Tá faltando espaço depois da diretiva de pré-processador, sô. Vamo completá isso aí.",
-		"Tá faltando espaço depois da diretiva de pré-processador, sô. Vamo completá isso aí."
+		"Muitas instruções em uma única linha",
+		"Muitas instruções em uma única linha? Isso é uma bagunça!",
+		"Muitas instruções em uma única linha. Você não consegue escrever código de forma organizada?"
 	],
 	"PREPROC_UKN_STATEMENT": [
-		"Encontramos uma declaração de pré-processador não reconhecida. Vamos revisar isso para entender melhor.",
-		"Encontramos uma declaração de pré-processador não reconhecida. Vamos revisar isso para entender melhor.",
-		"Encontramos uma declaração de pré-processador não reconhecida. Vamos revisar isso para entender melhor.",
-		"Encontramos uma declaração de pré-processador não reconhecida. Vamos revisar isso para entender melhor.",
-		"Nóis encontrô uma declaração de pré-processador que não conhece, sô. Vamo dá uma olhada melhor.",
-		"Nóis encontrô uma declaração de pré-processador que não conhece, sô. Vamo dá uma olhada melhor."
+		"Declaração de pré-processador não reconhecida",
+		"Declaração de pré-processador não reconhecida. Você está falando outra língua!",
+		"Declaração de pré-processador não reconhecida. Você não consegue nem usar o pré-processador corretamente?"
 	],
 	"PREPROC_START_LINE": [
-		"A declaração de pré-processador não está no início da linha. Vamos mover para o início para seguir as convenções.",
-		"A declaração de pré-processador não está no início da linha. Vamos mover para o início para seguir as convenções.",
-		"A declaração de pré-processador não está no início da linha. Vamos mover para o início para seguir as convenções.",
-		"A declaração de pré-processador não está no início da linha. Vamos mover para o início para seguir as convenções.",
-		"Essa declaração de pré-processador num tá no comecim da linha, vamo ajustá isso.",
-		"Essa declaração de pré-processador num tá no comecim da linha, vamo ajustá isso."
+		"Declaração de pré-processador não está no início da linha",
+		"Declaração de pré-processador não está no início da linha. Isso nem deveria ser uma pergunta.",
+		"Declaração de pré-processador não está no início da linha. Sério, você não consegue começar no começo?"
 	],
 	"PREPROC_CONSTANT": [
-		"As declarações de pré-processador devem conter apenas definições constantes. Vamos ajustar para cumprir essa regra.",
-		"As declarações de pré-processador devem conter apenas definições constantes. Vamos ajustar para cumprir essa regra.",
-		"As declarações de pré-processador devem conter apenas definições constantes. Vamos ajustar para cumprir essa regra.",
-		"As declarações de pré-processador devem conter apenas definições constantes. Vamos ajustar para cumprir essa regra.",
-		"As declarações de pré-processador só pode tê definição constante. Vamo ajustá pra fica certim.",
-		"As declarações de pré-processador só pode tê definição constante. Vamo ajustá pra fica certim."
+		"Declaração de pré-processador deve conter apenas definições constantes",
+		"Declaração de pré-processador deve conter apenas definições constantes. Parece que você não leu o manual.",
+		"Declaração de pré-processador deve conter apenas definições constantes. Você não pode ler as instruções?"
 	],
 	"PREPROC_EXPECTED_EOL": [
-		"Fim de linha era esperado após a declaração de pré-processador. Vamos adicionar para corrigir isso.",
-		"Fim de linha era esperado após a declaração de pré-processador. Vamos adicionar para corrigir isso.",
-		"Fim de linha era esperado após a declaração de pré-processador. Vamos adicionar para corrigir isso.",
-		"Fim de linha era esperado após a declaração de pré-processador. Vamos adicionar para corrigir isso.",
-		"Tava esperano fim de linha depois da declaração de pré-processador. Vamo acertá isso.",
-		"Tava esperano fim de linha depois da declaração de pré-processador. Vamo acertá isso."
+		"EOL esperado após a declaração de pré-processador",
+		"EOL esperado após a declaração de pré-processador. Não pode simplesmente continuar.",
+		"EOL esperado após a declaração de pré-processador. Você não consegue seguir as regras?"
 	],
-	"PREPROC_BAD_IF": [
-		"Você usou 'if' em uma declaração de pré-processador sem 'endif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'if' em uma declaração de pré-processador sem 'endif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'if' em uma declaração de pré-processador sem 'endif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'if' em uma declaração de pré-processador sem 'endif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Usô 'if' numa declaração de pré-processador sem 'endif'? Vamo ajeitá isso, sô.",
-		"Usô 'if' numa declaração de pré-processador sem 'endif'? Vamo ajeitá isso, sô."
+	"PREPROC_BAD_INDENT": [
+		"Indentação ruim de pré-processador",
+		"Indentação ruim de pré-processador. Você tem que alinhar as coisas!",
+		"Indentação ruim de pré-processador. Você não consegue nem indentar corretamente?"
 	],
-	"PREPROC_BAD_ELIF": [
-		"Você usou 'elif' em uma declaração de pré-processador sem 'if' ou 'elif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'elif' em uma declaração de pré-processador sem 'if' ou 'elif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'elif' em uma declaração de pré-processador sem 'if' ou 'elif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Você usou 'elif' em uma declaração de pré-processador sem 'if' ou 'elif'. Vamos corrigir isso para manter a estrutura correta.",
-		"Usô 'elif' numa declaração de pré-processador sem 'if' ou 'elif'? Vamo corrigi isso pra fica certo.",
-		"Usô 'elif' numa declaração de pré-processador sem 'if' ou 'elif'? Vamo corrigi isso pra fica certo."
+	"USER_DEFINED_TYPEDEF": [
+		"O typedef definido pelo usuário deve começar com t_",
+		"O typedef definido pelo usuário deve começar com t_. Simples assim!",
+		"O typedef definido pelo usuário deve começar com t_. Você não pode seguir essa simples convenção?"
+	],
+	"STRUCT_TYPE_NAMING": [
+		"O nome da struct deve começar com s_",
+		"O nome da struct deve começar com s_. Não é tão difícil de lembrar.",
+		"O nome da struct deve começar com s_. Você não consegue nem nomear corretamente?"
+	],
+	"ENUM_TYPE_NAMING": [
+		"O nome do enum deve começar com e_",
+		"O nome do enum deve começar com e_. Pelo menos lembre-se disso.",
+		"O nome do enum deve começar com e_. Sério, você não consegue nem nomear corretamente?"
+	],
+	"UNION_TYPE_NAMING": [
+		"O nome da union deve começar com u_",
+		"O nome da union deve começar com u_. Você pode fazer isso.",
+		"O nome da union deve começar com u_. Isso é tão difícil de lembrar?"
+	],
+	"GLOBAL_VAR_NAMING": [
+		"Variável global deve começar com g_",
+		"Variável global deve começar com g_. Fácil de lembrar, certo?",
+		"Variável global deve começar com g_. Você não consegue nem nomear corretamente?"
+	],
+	"GLOBAL_VAR_DETECTED": [
+		"Variável global presente no arquivo. Certifique-se de que é uma escolha razoável.",
+		"Variável global presente no arquivo. Certifique-se de que é uma escolha razoável. Alguém não pensou direito.",
+		"Variável global presente no arquivo. Você não pensou nisso antes de escrever?"
+	],
+	"EOL_OPERATOR": [
+		"Operador lógico no final da linha",
+		"Operador lógico no final da linha? Não é uma frase!",
+		"Operador lógico no final da linha. Isso é um erro muito óbvio!"
+	],
+	"EMPTY_LINE_FUNCTION": [
+		"Linha vazia na função",
+		"Linha vazia na função. Isso não faz sentido.",
+		"Linha vazia na função. Isso é uma bagunça!"
+	],
+	"EMPTY_LINE_FILE_START": [
+		"Linha vazia no início do arquivo",
+		"Linha vazia no início do arquivo. Pelo menos comece de maneira organizada.",
+		"Linha vazia no início do arquivo. Você não consegue começar direito?"
+	],
+	"EMPTY_LINE_EOF": [
+		"Linha vazia no final do arquivo",
+		"Linha vazia no final do arquivo. O que você está fazendo?",
+		"Linha vazia no final do arquivo. Por que você está fazendo isso?"
+	],
+	"WRONG_SCOPE_VAR": [
+		"Variável declarada no escopo incorreto",
+		"Variável declarada no escopo incorreto. Alguém não sabe onde as coisas pertencem.",
+		"Variável declarada no escopo incorreto. Você não pode nem declarar uma variável no lugar certo?"
+	],
+	"IMPLICIT_VAR_TYPE": [
+		"Tipo ausente na declaração da variável",
+		"Tipo ausente na declaração da variável. Não é opcional!",
+		"Tipo ausente na declaração da variável. Isso é um erro muito básico!"
+	],
+	"VAR_DECL_START_FUNC": [
+		"Declaração de variável não está no início da função",
+		"Declaração de variável não está no início da função. Ordem, pessoal, ordem!",
+		"Declaração de variável não está no início da função. Você não consegue nem começar no lugar certo?"
+	],
+	"TOO_MANY_VARS_FUNC": [
+		"Muitas declarações de variáveis em uma função",
+		"Muitas declarações de variáveis em uma função. Você não pode simplesmente empilhar tudo.",
+		"Muitas declarações de variáveis em uma função. Isso é uma bagunça completa!"
+	],
+	"TOO_MANY_FUNCS": [
+		"Muitas funções no arquivo",
+		"Muitas funções no arquivo. Pelo menos mantenha tudo organizado.",
+		"Muitas funções no arquivo. Você está exagerando!"
+	],
+	"BRACE_SHOULD_EOL": [
+		"Quebra de linha esperada após a chave",
+		"Quebra de linha esperada após a chave. O que é isso, uma parede?",
+		"Quebra de linha esperada após a chave. Você não consegue nem organizar direito?"
+	],
+	"CONSECUTIVE_NEWLINES": [
+		"Quebras de linha consecutivas",
+		"Quebras de linha consecutivas. Você está apenas enchendo espaço, não está?",
+		"Quebras de linha consecutivas. Você não consegue nem usar uma quebra de linha corretamente?"
+	],
+	"NEWLINE_PRECEDES_FUNC": [
+		"Funções devem ser separadas por uma quebra de linha",
+		"Funções devem ser separadas por uma quebra de linha. Pense em organização.",
+		"Funções devem ser separadas por uma quebra de linha. Você não pode nem organizar suas funções?"
+	],
+	"NL_AFTER_VAR_DECL": [
+		"Declarações de variáveis devem ser seguidas por uma quebra de linha",
+		"Declarações de variáveis devem ser seguidas por uma quebra de linha. Você não pode simplesmente continuar.",
+		"Declarações de variáveis devem ser seguidas por uma quebra de linha. Por que você está fazendo isso?"
+	],
+	"NL_AFTER_PREPROC": [
+		"Declaração de pré-processador deve ser seguida por uma quebra de linha",
+		"Declaração de pré-processador deve ser seguida por uma quebra de linha. Não é uma frase!",
+		"Declaração de pré-processador deve ser seguida por uma quebra de linha. Isso é tão óbvio!"
+	],
+	"MULT_ASSIGN_LINE": [
+		"Múltiplas atribuições em uma única linha",
+		"Múltiplas atribuições em uma única linha. Você está sobrecarregando essa linha.",
+		"Múltiplas atribuições em uma única linha. Você não consegue nem dividir suas atribuições?"
+	],
+	"MULT_DECL_LINE": [
+		"Múltiplas declarações em uma única linha",
+		"Múltiplas declarações em uma única linha. Você não pode apenas juntar tudo.",
+		"Múltiplas declarações em uma única linha. Você está amontoando tudo!"
+	],
+	"DECL_ASSIGN_LINE": [
+		"Declaração e atribuição em uma única linha",
+		"Declaração e atribuição em uma única linha. Pelo menos separe as coisas.",
+		"Declaração e atribuição em uma única linha. Por que você está fazendo isso?"
+	],
+	"FORBIDDEN_CS": [
+		"Estrutura de controle proibida",
+		"Estrutura de controle proibida. Não vá por esse caminho.",
+		"Estrutura de controle proibida. Você não pode nem seguir as regras?"
+	],
+	"SPACE_AFTER_KW": [
+		"Espaço em falta após palavra-chave",
+		"Espaço em falta após palavra-chave. Não pule palavras.",
+		"Espaço em falta após palavra-chave. Você não pode seguir a formatação correta?"
+	],
+	"RETURN_PARENTHESIS": [
+		"Valor de retorno deve estar entre parênteses",
+		"Valor de retorno deve estar entre parênteses. Parênteses não são opcionais.",
+		"Valor de retorno deve estar entre parênteses. Você não consegue nem colocar isso entre parênteses?"
+	],
+	"EXP_SEMI_COLON": [
+		"Ponto e vírgula esperado",
+		"Ponto e vírgula esperado. Isso é uma sentença, lembra?",
+		"Ponto e vírgula esperado. Isso é um erro tão básico!"
+	],
+	"EXP_TAB": [
+		"Tab esperado",
+		"Tab esperado. É o básico.",
+		"Tab esperado. Você não consegue nem usar tabulação direito?"
+	],
+	"NO_ARGS_VOID": [
+		"Argumento de função vazio requer void",
+		"Argumento de função vazio requer void. Não deixe isso em branco.",
+		"Argumento de função vazio requer void. Você não consegue nem declarar uma função corretamente?"
+	],
+	"MISALIGNED_VAR_DECL": [
+		"Declaração de variável desalinhada",
+		"Declaração de variável desalinhada. Você pode simplesmente alinhar as coisas.",
+		"Declaração de variável desalinhada. Você não consegue nem alinhar as coisas direito?"
+	],
+	"MISALIGNED_FUNC_DECL": [
+		"Declaração de função desalinhada",
+		"Declaração de função desalinhada. Ordem, pessoal, ordem!",
+		"Declaração de função desalinhada. Isso é tão desorganizado!"
+	],
+	"WRONG_SCOPE_COMMENT": [
+		"Comentário inválido neste escopo",
+		"Comentário inválido neste escopo. Você está fora do tópico.",
+		"Comentário inválido neste escopo. Por que você está escrevendo isso aqui?"
+	],
+	"MACRO_NAME_CAPITAL": [
+		"Nome da macro deve ser em maiúsculas",
+		"Nome da macro deve ser em maiúsculas. GRITANDO?",
+		"Nome da macro deve ser em maiúsculas. Você não consegue nem seguir essa simples convenção?"
+	],
+	"ASSIGN_IN_CONTROL": [
+		"Atribuição em estrutura de controle",
+		"Atribuição em estrutura de controle. Não misture as coisas.",
+		"Atribuição em estrutura de controle. Isso é completamente errado!"
+	],
+	"VLA_FORBIDDEN": [
+		"Array de comprimento variável (VLA) proibida",
+		"Array de comprimento variável (VLA) proibida. Você não pode simplesmente improvisar.",
+		"Array de comprimento variável (VLA) proibida. Você não consegue nem seguir as regras de arrays?"
+	],
+	"TOO_MANY_ARGS": [
+		"Função tem mais de 4 argumentos",
+		"Função tem mais de 4 argumentos. Isso é demais.",
+		"Função tem mais de 4 argumentos. Você está exagerando!"
+	],
+	"INCLUDE_HEADER_ONLY": [
+		"Arquivos .c não devem incluir outros arquivos .c",
+		"Arquivos .c não devem incluir outros arquivos .c. Não importa quantos .c você goste.",
+		"Arquivos .c não devem incluir outros arquivos .c. Você não pode nem organizar seus arquivos?"
+	],
+	"INCLUDE_START_FILE": [
+		"A inclusão deve estar no início do arquivo",
+		"A inclusão deve estar no início do arquivo. Organização é a chave.",
+		"A inclusão deve estar no início do arquivo. Você não consegue nem começar corretamente?"
+	],
+	"HEADER_PROT_ALL": [
+		"Proteção de cabeçalho deve incluir todas as instruções",
+		"Proteção de cabeçalho deve incluir todas as instruções. Você esqueceu algo.",
+		"Proteção de cabeçalho deve incluir todas as instruções. Você não consegue nem fazer isso certo?"
+	],
+	"HEADER_PROT_NAME": [
+		"Nome de proteção de cabeçalho incorreto",
+		"Nome de proteção de cabeçalho incorreto. Só precisa seguir as regras.",
+		"Nome de proteção de cabeçalho incorreto. Você não consegue nem nomear corretamente?"
+	],
+	"TERNARY_FBIDDEN": [
+		"Operador ternário é proibido",
+		"Operador ternário é proibido. Você não pode fazer isso.",
+		"Operador ternário é proibido. Você não pode nem usar operadores corretamente?"
+	],
+	"TOO_MANY_VALS": [
+		"Muitos valores na definição",
+		"Muitos valores na definição. Simplifique.",
+		"Muitos valores na definição. Isso é uma bagunça completa!"
+	],
+	"NEWLINE_IN_DECL": [
+		"Quebra de linha na declaração",
+		"Quebra de linha na declaração. Não é uma sentença.",
+		"Quebra de linha na declaração. Você não consegue nem formatar uma declaração corretamente?"
+	],
+	"MULT_IN_SINGLE_INSTR": [
+		"Múltiplas instruções em uma única linha de estrutura de controle",
+		"Múltiplas instruções em uma única linha de estrutura de controle. Você está confundindo tudo.",
+		"Múltiplas instruções em uma única linha de estrutura de controle. Você está bagunçando tudo!"
+	],
+	"NEWLINE_DEFINE": [
+		"Quebra de linha na definição",
+		"Quebra de linha na definição. Isso não faz sentido.",
+		"Quebra de linha na definição. Isso é completamente desorganizado!"
+	],
+	"MISSING_TYPEDEF_ID": [
+		"Identificador em falta na declaração typedef",
+		"Identificador em falta na declaração typedef. Não é opcional.",
+		"Identificador em falta na declaração typedef. Você não consegue nem declarar um typedef direito?"
+	],
+	"LABEL_FBIDDEN": [
+		"Declarações de label são proibidas",
+		"Declarações de label são proibidas. Não siga por esse caminho.",
+		"Declarações de label são proibidas. Você não pode nem seguir regras simples?"
+	],
+	"PREPROC_GLOBAL": [
+		"Pré-processadores só podem ser usados no escopo global",
+		"Pré-processadores só podem ser usados no escopo global. Não vá além do escopo.",
+		"Pré-processadores só podem ser usados no escopo global. Você não consegue nem entender onde usar o pré-processador?"
+	],
+	"WRONG_SCOPE_FCT": [
+		"Protótipo de função no escopo incorreto",
+		"Protótipo de função no escopo incorreto. Você perdeu o foco.",
+		"Protótipo de função no escopo incorreto. Você não consegue nem declarar uma função corretamente?"
+	],
+	"WRONG_SCOPE": [
+		"Declaração está no escopo incorreto",
+		"Declaração está no escopo incorreto. Não é onde deveria estar.",
+		"Declaração está no escopo incorreto. Isso é uma bagunça!"
+	],
+	"INCORRECT_DEFINE": [
+		"Valores incorretos na definição",
+		"Valores incorretos na definição. Não é tão difícil de verificar.",
+		"Valores incorretos na definição. Você não consegue nem definir coisas direito?"
+	],
+	"BRACE_NEWLINE": [
+		"Quebra de linha esperada antes da chave",
+		"Quebra de linha esperada antes da chave. Comece de maneira organizada.",
+		"Quebra de linha esperada antes da chave. Isso é tão óbvio!"
+	],
+	"EXP_NEWLINE": [
+		"Quebra de linha esperada após a estrutura de controle",
+		"Quebra de linha esperada após a estrutura de controle. Pelo menos separe as coisas.",
+		"Quebra de linha esperada após a estrutura de controle. Você não consegue nem seguir a formatação correta?"
+	],
+	"ARG_TYPE_UKN": [
+		"Tipo de variável não reconhecido",
+		"Tipo de variável não reconhecido. Você sabe o que está fazendo?",
+		"Tipo de variável não reconhecido. Você não consegue nem entender os tipos de variáveis?"
+	],
+	"COMMENT_ON_INSTR": [
+		"Comentário deve estar em sua própria linha",
+		"Comentário deve estar em sua própria linha. Não é opcional.",
+		"Comentário deve estar em sua própria linha. Por que você está bagunçando a formatação?"
+	],
+	"COMMA_START_LINE": [
+		"Vírgula no início da linha",
+		"Vírgula no início da linha. Não seja estranho.",
+		"Vírgula no início da linha. Você não consegue nem usar vírgulas corretamente?"
+	],
+	"MIXED_SPACE_TAB": [
+		"Espaços e Tabs misturados",
+		"Espaços e Tabs misturados. Isso é confuso.",
+		"Espaços e Tabs misturados. Você não consegue nem decidir entre espaço e tabulação?"
+	],
+	"ATTR_EOL": [
+		"Atributo da função deve estar no final da linha",
+		"Atributo da função deve estar no final da linha. Você não pode misturar.",
+		"Atributo da função deve estar no final da linha. Você não consegue nem seguir essa regra simples?"
+	],
+	"INVALID_HEADER": [
+		"Cabeçalho 42 ausente ou inválido",
+		"Cabeçalho 42 ausente ou inválido. Você está fora do padrão.",
+		"Cabeçalho 42 ausente ou inválido. Isso é completamente errado!"
 	]
 }
